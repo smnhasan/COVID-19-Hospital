@@ -1,0 +1,647 @@
+###################The Global Health Security index and Joint External Evaluation score for health preparedness are not correlated with countries' COVID-19 detection response time and mortality outcome###################
+#                                                                                         Mohammad Nayeem Hasan                                                                                                            #
+############################################################################################################################################################################################################################
+
+library(MASS)
+require(foreign)
+require(ggplot2)
+require(maptools)
+library(dplyr)
+
+library(mgcv)
+library(GGally)
+library(mgcv)
+library(visreg)
+
+
+#Dec20
+
+setwd('E:\\COVID-19 Hospital\\')
+
+COVID <- read.csv("Hospital_Data.csv")
+COVID$District
+#Case, Deaths, General_Bed, ICU_Bed, Total_Beds, COVID_Dedicated_Bed, High.flow.nasal.canula, Total_Oxygen_Concentrator_Available, Oxygen_Cylinder_Available, Population, X1st.dose, X2nd.dose, X3rd.dose
+data <- aggregate(cbind(Case, Deaths, General_Bed, ICU_Bed, Total_Beds, COVID_Dedicated_Bed, High.flow.nasal.canula, Total_Oxygen_Concentrator_Available, Oxygen_Cylinder_Available, Population, X1st.dose, X2nd.dose, X3rd.dose) ~ District, data = COVID, FUN = mean)
+
+modeldata <- aggregate(cbind(Case, Deaths, General_Bed, ICU_Bed, Total_Beds, COVID_Dedicated_Bed, High.flow.nasal.canula, Total_Oxygen_Concentrator_Available, Oxygen_Cylinder_Available, Population, X1st.dose, X2nd.dose, X3rd.dose) ~ Division + Facility_Type + District, data = COVID, FUN = mean)
+
+
+# Grouped
+a <- ggplot(modeldata, aes(fill=Division, y=District, x=Case)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Total Cases")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.85, 0.85),
+         text = element_text(size = 20)) 
+a
+
+# Grouped
+b <- ggplot(modeldata, aes(fill=Division, y=District, x=Deaths)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Total Deaths")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.85, 0.85),
+         text = element_text(size = 20)) 
+b
+
+tiff("CaseDeath.tiff", units="in", width=32, height=16, res=300)
+gridExtra::grid.arrange(a,b, ncol = 2)
+dev.off()
+
+
+# Grouped
+a <- ggplot(modeldata, aes(fill=Division, y=District, x=General_Bed)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Average General Bed")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.8),
+         text = element_text(size = 20)) 
+a
+
+# Grouped
+b <- ggplot(modeldata, aes(fill=Division, y=District, x=ICU_Bed)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Average ICU Bed")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.8),
+         text = element_text(size = 20)) 
+b
+
+# Grouped
+c <- ggplot(modeldata, aes(fill=Division, y=District, x=COVID_Dedicated_Bed)) + 
+  geom_bar(position="dodge", stat="identity")+ xlab("Average COVID Dedicated Bed")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.8),
+         text = element_text(size = 20)) 
+c
+
+tiff("Bed.tiff", units="in", width=32, height=16, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+# Grouped
+a <- ggplot(modeldata, aes(fill=Division, y=District, x=High.flow.nasal.canula)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Average High Flow Nasal Canula")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+a
+
+# Grouped
+b <- ggplot(modeldata, aes(fill=Division, y=District, x=Total_Oxygen_Concentrator_Available)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Average Total Oxygen Concentrator Available")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+
+b
+
+# Grouped
+c <- ggplot(modeldata, aes(fill=Division, y=District, x=Oxygen_Cylinder_Available)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Average Oxygen Cylinder Available")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+c
+
+tiff("Oxy.tiff", units="in", width=32, height=16, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+# Grouped
+a <- ggplot(modeldata, aes(fill=Division, y=District, x=X1st.dose)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Total First Dose")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+a
+# Grouped
+b <- ggplot(modeldata, aes(fill=Division, y=District, x=X2nd.dose)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Total Second Dose")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+b
+# Grouped
+c <- ggplot(modeldata, aes(fill=Division, y=District, x=X3rd.dose)) + 
+  geom_bar(position="dodge", stat="identity") + xlab("Total Third Dose")+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+c
+
+tiff("dose.tiff", units="in", width=32, height=16, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+#Plot
+
+library(ggplot2)
+library(ggrepel)
+options(scipen = 999)
+mean(data$Case)
+
+a <- ggplot(data, aes(x = Case, y = General_Bed))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average General Bed")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 65))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+a
+
+
+b <- ggplot(data, aes(x = Case, y = ICU_Bed)) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average ICU Bed")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 11))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+b
+
+
+c <- ggplot(data, aes(x = Case, y = COVID_Dedicated_Bed)) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average COVID Dedicated Bed")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 100))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+c
+
+tiff("casevsbed.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+a <- ggplot(data, aes(x = Case, y = High.flow.nasal.canula))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average High Flow Nasal Canula")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 15))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+a
+
+
+b <- ggplot(data, aes(x = Case, y = Total_Oxygen_Concentrator_Available))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average Total Oxygen Concentrator Available")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 15))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+b
+
+
+c <- ggplot(data, aes(x = Case, y = Oxygen_Cylinder_Available)) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Average Oxygen Cylinder Available")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(0, 200))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20)) 
+c
+
+tiff("casevsoxy.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+
+
+a <- ggplot(data, aes(x = Case, y = log(X1st.dose))) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Total First Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+a
+
+
+b <- ggplot(data, aes(x = Case, y = log(X2nd.dose))) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Total Second Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+b
+
+c <- ggplot(data, aes(x = Case, y = log(X3rd.dose)))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Total Third Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(12, 16))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+c
+
+tiff("casevsdose.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+
+
+
+##########Deaths
+
+a <- ggplot(data, aes(x = Deaths, y = General_Bed)) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average General Bed")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 65))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+a
+
+
+b <- ggplot(data, aes(x = Deaths, y = ICU_Bed))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average ICU Bed")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 11))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+b
+
+
+c <- ggplot(data, aes(x = Deaths, y = COVID_Dedicated_Bed))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average COVID Dedicated Bed")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 100))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+c
+
+tiff("deathvsbed.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+a <- ggplot(data, aes(x = Deaths, y = High.flow.nasal.canula))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average High Flow Nasal Canula")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 15))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+a
+
+
+b <- ggplot(data, aes(x = Deaths, y = Total_Oxygen_Concentrator_Available))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average Total Oxygen Concentrator Available")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 15))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+b
+
+
+c <- ggplot(data, aes(x = Deaths, y = Oxygen_Cylinder_Available))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Average Oxygen Cylinder Available")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(0, 200))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+c
+
+tiff("deathvsoxy.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+
+a <- ggplot(data, aes(x = Deaths, y = log(X1st.dose)))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Total First Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+a
+
+b <- ggplot(data, aes(x = Deaths, y = log(X2nd.dose))) + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Total Second Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+b
+
+c <- ggplot(data, aes(x = Deaths, y = log(X3rd.dose)))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Total Third Dose in Log Scale")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(12, 16))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+c
+
+tiff("deathvsdose.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b,c, ncol = 3)
+dev.off()
+
+
+####Population
+
+a <- ggplot(data, aes(x = Case, y = log(Population)))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Case < 10000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Case < 10000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Cases") + ylab("Total Population in Log Scale")  + 
+  scale_x_continuous(limits = c(-160000, 160000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+a
+
+b <- ggplot(data, aes(x = Deaths, y = log(Population)))  + 
+  theme(plot.title = element_text(hjust = 0.5,size=20,face = "bold"),text = element_text(size = 20))+
+  geom_point(aes(colour = Deaths < 1000), size = 4,
+             show.legend = F) +
+  #geom_vline(xintercept = 44.2, linetype = "dashed") + 
+  #geom_vline(xintercept = 83.5, linetype = "dashed") +  
+  geom_text_repel(aes(colour = Deaths < 1000), 
+                  show.legend = F, 
+                  size = 4, 
+                  label=data$District, 
+                  hjust = -0.4,
+                  vjust= 0.5) +
+  xlab("Total Deaths") + ylab("Total Population in Log Scale")  + 
+  scale_x_continuous(limits = c(-10000, 10000)) +
+  scale_y_continuous(limits = c(12, 17))+  
+  theme( legend.title=element_blank(),
+         legend.text = element_text(color = "Black", size = 20), legend.position = c(0.8, 0.88),
+         text = element_text(size = 20))
+b
+
+tiff("deathCasevspopulation.tiff", units="in", width=32, height=12, res=300)
+gridExtra::grid.arrange(a,b, ncol = 2)
+dev.off()
+
+
+myvars <- c("Case", "Deaths", "General_Bed","ICU_Bed","COVID_Dedicated_Bed","High.flow.nasal.canula","Total_Oxygen_Concentrator_Available",
+            "Oxygen_Cylinder_Available","X1st.dose","X2nd.dose","X3rd.dose","Population")
+newdata <- data[myvars]
+
+
+colnames(newdata) <- c('Cases', 
+                    'Deaths', 
+                    'General bed',
+                    'ICU bed',
+                    'COVID dedicated bed',
+                    'High flow nasal canula',
+                    'Oxygen concentrator',
+                    'Oxygen cylinder',
+                    'First dose',
+                    'Second dose',
+                    'Third dose',
+                    'Population')
+
+ggpairs(newdata, 
+        columnLabels = gsub('.', ' ', colnames(newdata), fixed = T), 
+        labeller = label_wrap_gen(10))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+
+#cluster Analysis
+
+hos <- data.frame(data$District, data$Case, data$Deaths, data$General_Bed, data$ICU_Bed, data$ICU_Bed,
+                        data$COVID_Dedicated_Bed, data$High.flow.nasal.canula, data$Total_Oxygen_Concentrator_Available,
+                       data$Oxygen_Cylinder_Available, data$X1st.dose, data$X2nd.dose, data$X3rd.dose, data$Population)
+colnames(hos) <- c('District',
+                        'Cases', 
+                        'Deaths', 
+                        'General bed',
+                        'ICU bed',
+                        'COVID dedicated bed',
+                        'High flow nasal canula',
+                        'Oxygen concentrator',
+                        'Oxygen cylinder',
+                        'First dose',
+                        'Second dose',
+                        'Third dose',
+                        'Population')
+row.names(hos) <- c("Bagerhat","Bandarban","Barguna","Barishal","Bhola","Bogura","Brahmanbaria",
+                         "Chandpur","Chapai Nawabganj","Chattogram","Chuadanga","Comilla","Coxs Bazar","Dhaka",
+                         "Dinajpur","Faridpur","Feni","Gaibandha","Gazipur","Gopalganj","Habiganj","Jamalpur","Jashor",
+                         "Jhalokathi","Jhenaidah","Joypurhat","Khagrachhari","Khulna","Kishoreganj",
+                         "Kurigram","Kushtia","Laksmipur","Lalmonirhat","Madaripur","Magura","Manikganj",
+                         "Maulavi Bazar","Meherpur","Munshiganj","Mymensingh","Naogaon","Narail","Narayanganj",
+                         "Narsingdi","Natore","Netrokona","Nilphamari","Noakhali","Pabna","Panchaghar","Patuakhali",
+                         "Pirojpur","Rajbari","Rajshahi","Rangamati","Rangpur","Satkhira","Shariatpur","Sherpur","Sirajganj","Sunamganj",
+                         "Sylhet","Tangail","Thakurgaon")
+hos <- scale(hos[2:13])
+
+# Enhanced hierarchical clustering
+res.hc <- eclust(hos, "hclust" , k=8) # compute hclust
+fviz_dend(res.hc, cex = 1, 
+          main = "Dendogram Using Ward Linkage\nRescaled Distance",
+          xlab = "Sampling Sites", ylab = "Distance", sub = "",rect = TRUE)

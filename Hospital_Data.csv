@@ -1,0 +1,599 @@
+Division,District,Case,Deaths,Facility_Name,Facility_Type,General_Bed,ICU_Bed,ICU_E_Bed,HDU_bed,Total_Beds,Occupied_Beds,ICU_OP,ICU_E_Bed_OP,HDU_Bed_OP,COVID_Dedicated_Bed,Total COVID Patient,High flow nasal canula,High_flow_nasal_canula_Used,Ventilator,Total_Oxygen_Concentrator_Available,Oxygen_Cylinder_Available,Total_Bed_Central_Oxygen_Supply,Population,1st dose,2nd dose,3rd dose
+Barishal Division,Barguna,1008,121,Amtali Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,35,0,1055171,881445,746149,395279
+Barishal Division,Pirojpur,1144,136,Bhandaria Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1315954,1057015,851490,449127
+Barishal Division,Barishal,4571,332,Muladi Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2745966,2293973,1833753,929082
+Barishal Division,Pirojpur,1144,136,Kawkhali Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,24,0,1315954,1057015,851490,449127
+Barishal Division,Barishal,4571,332,Hijla Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,2,26,0,2745966,2293973,1833753,929082
+Barishal Division,Barguna,1008,121,Bamna Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,32,0,1055171,881445,746149,395279
+Barishal Division,Pirojpur,1144,136,Nesarabad Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,27,0,1315954,1057015,851490,449127
+Barishal Division,Pirojpur,1144,136,Nazirpur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,50,0,1315954,1057015,851490,449127
+Barishal Division,Pirojpur,1144,136,"Pirojpur District Hospital, Pirojpur",Government,10,0,0,0,10,0,0,0,0,10,0,7,4,,8,133,10,1315954,1057015,851490,449127
+Barishal Division,Barguna,1008,121,Betagi Upazila Health Complex,Government,14,0,0,0,14,0,0,0,0,14,0,0,0,,6,56,0,1055171,881445,746149,395279
+Barishal Division,Jhalokathi,804,100,Kathalia Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,0,20,0,807296,583613,515055,279509
+Barishal Division,Pirojpur,1144,136,Mathbaria Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,5,44,0,1315954,1057015,851490,449127
+Barishal Division,Barguna,1008,121,Patharghata Upazila Health Complex,Government,16,0,0,0,16,0,0,0,0,16,0,0,0,,6,40,0,1055171,881445,746149,395279
+Barishal Division,Jhalokathi,804,100,Rajapur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,27,0,807296,583613,515055,279509
+Barishal Division,Jhalokathi,804,100,Jhalokathi District Hospital,Government,20,0,0,0,20,0,0,0,0,20,0,2,0,,9,138,100,807296,583613,515055,279509
+Barishal Division,Patuakhali,1660,162,Dumki Upazila Health Complex,Government,20,0,0,0,20,2,0,0,0,20,2,1,0,,0,0,0,1815180,1514640,1228731,625740
+Barishal Division,Patuakhali,1660,162,Galachipa Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,59,0,0,1815180,1514640,1228731,625740
+Barishal Division,Patuakhali,1660,162,Bauphal Upazila Health Complex,Government,20,0,0,0,20,1,0,0,1,20,1,0,0,,69,0,0,1815180,1514640,1228731,625740
+Barishal Division,Patuakhali,1660,162,Dashmina Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,4,38,0,1815180,1514640,1228731,625740
+Barishal Division,Patuakhali,1660,162,Kalapara Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,1,,2,60,50,1815180,1514640,1228731,625740
+Barishal Division,Patuakhali,1660,162,Mirzaganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,20,0,0,1815180,1514640,1228731,625740
+Barishal Division,Bhola,926,142,Tajumuddin Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,31,0,2099621,1707037,1426035,574910
+Barishal Division,Bhola,926,142,Borhanuddin Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,33,0,2099621,1707037,1426035,574910
+Barishal Division,Bhola,926,142,Lalmohan Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,5,38,0,2099621,1707037,1426035,574910
+Barishal Division,Bhola,926,142,Daulatkhan Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,45,0,2099621,1707037,1426035,574910
+Barishal Division,Bhola,926,142,Manpura Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,30,45,0,2099621,1707037,1426035,574910
+Barishal Division,Bhola,926,142,Charfession Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,68,21,2099621,1707037,1426035,574910
+Barishal Division,Barishal,4571,332,"Agailjhara Upazila Health Complex, Barisal",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,Banaripara Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,24,0,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,"Bakerganj Upazila Health Complex, Barisal",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,12,31,0,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,Mehendiganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,46,0,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,"Babuganj Upazila Health Complex, Barisal",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,56,0,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,Wazirpur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,20,40,15,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,Gournadi Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,2,0,,0,55,42,2745966,2293973,1833753,929082
+Barishal Division,Barishal,4571,332,"Barisal District Hospital, Barisal",Government,22,0,0,0,22,0,0,0,0,22,0,2,0,,6,89,90,2745966,2293973,1833753,929082
+Barishal Division,Jhalokathi,804,100,Nalchithi Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,0,0,0,807296,583613,515055,279509
+Barishal Division,Barguna,1008,121,"Barguna District Hospital, Barguna",Government,50,0,0,0,50,16,0,0,0,50,16,11,9,,4,235,50,1055171,881445,746149,395279
+Barishal Division,Patuakhali,1660,162,"Patuakhali 250 bed Sadar Hospital, Patuakhali",Government,80,5,0,0,85,1,1,0,0,85,1,4,0,,13,250,0,1815180,1514640,1228731,625740
+Barishal Division,Bhola,926,142,"Bhola District Hospital, Bhola",Government,100,6,6,0,112,0,0,0,0,112,0,6,6,,7,184,106,2099621,1707037,1426035,574910
+Barishal Division,Barishal,4571,332,"Sher-e-Bangla Medical College Hospital, Barisal",Government,270,30,0,0,300,0,0,0,0,300,0,77,77,,1,693,136,2745966,2293973,1833753,929082
+Chattogram Division,Laksmipur,2283,254,Ramgati Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2044365,1680657,1413513,570098
+Chattogram Division,Coxs Bazar,5608,335,Pekua Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,22,57,20,2708537,2320282,1950805,748668
+Chattogram Division,Coxs Bazar,5608,335,Teknaf Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2708537,2320282,1950805,748668
+Chattogram Division,Comilla,8803,1588,Muradnagar Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,111,0,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Chaddagram Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,15,105,10,6371153,5311166,4500820,2303576
+Chattogram Division,Rangamati,1098,36,Barkol Upazila Health Complex,Government,2,0,0,0,2,0,0,0,0,2,0,0,0,,6,30,2,705291,572659,468550,229780
+Chattogram Division,Khagrachhari,773,46,Dighinala Upazila Health Complex,Government,2,0,0,0,2,2,0,0,0,2,2,0,0,,0,0,0,726616,615441,511116,231500
+Chattogram Division,Khagrachhari,773,46,Lakshmichari Upazila Health Complex,Government,3,0,0,0,3,0,0,0,0,3,0,0,0,,5,35,0,726616,615441,511116,231500
+Chattogram Division,Chattogram,28112,1517,Asian Hospital (Pvt.) Limited,Private,4,26,3,10,43,6,0,3,0,43,6,3,3,,0,75,10,8998864,8479243,7366503,3184851
+Chattogram Division,Bandarban,871,18,Ruma Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,2,5,0,459524,374980,306847,124725
+Chattogram Division,Bandarban,871,18,Thanchi Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,19,0,459524,374980,306847,124725
+Chattogram Division,Bandarban,871,18,Rowangchari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,12,45,0,459524,374980,306847,124725
+Chattogram Division,Bandarban,871,18,Alikadam Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,459524,374980,306847,124725
+Chattogram Division,Rangamati,1098,36,Belaichari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,705291,572659,468550,229780
+Chattogram Division,Rangamati,1098,36,Juraichari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,705291,572659,468550,229780
+Chattogram Division,Rangamati,1098,36,Baghaichari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,18,0,705291,572659,468550,229780
+Chattogram Division,Rangamati,1098,36,Naniarchar Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,25,0,705291,572659,468550,229780
+Chattogram Division,Khagrachhari,773,46,Manikchari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,2,28,0,726616,615441,511116,231500
+Chattogram Division,Khagrachhari,773,46,Mohalchari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,33,0,726616,615441,511116,231500
+Chattogram Division,Comilla,8803,1588,Debidwar Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,"CSCR Hospital, Chittagong",Private,5,1,0,0,6,0,0,0,0,6,0,4,0,,2,144,11,8998864,8479243,7366503,3184851
+Chattogram Division,Rangamati,1098,36,Kawkhali Upazila Health Complex,Government,8,0,0,0,8,0,0,0,0,8,0,0,0,,53,10,0,705291,572659,468550,229780
+Chattogram Division,Khagrachhari,773,46,Matiranga Upazila Health Complex,Government,8,0,0,0,8,0,0,0,0,8,0,0,0,,0,42,0,726616,615441,511116,231500
+Chattogram Division,Khagrachhari,773,46,Panchari Upazila Health Complex,Government,9,0,0,0,9,0,0,0,0,9,0,0,0,,0,0,0,726616,615441,511116,231500
+Chattogram Division,Bandarban,871,18,Lama Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,38,0,459524,374980,306847,124725
+Chattogram Division,Feni,2180,300,"Fulgazi Health Complex, Feni",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,65,0,1701368,1413063,1184197,588042
+Chattogram Division,Laksmipur,2283,254,Ramganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,10,0,,0,0,0,2044365,1680657,1413513,570098
+Chattogram Division,Chandpur,2600,658,Haziganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,15,70,10,2858667,2481208,2073258,1038982
+Chattogram Division,Noakhali,5455,625,Subarnachar Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,0,0,3675152,3183940,2715692,1166155
+Chattogram Division,Noakhali,5455,625,Kabirhat Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,15,0,0,3675152,3183940,2715692,1166155
+Chattogram Division,Noakhali,5455,625,Hatiya Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,6,0,3675152,3183940,2715692,1166155
+Chattogram Division,Noakhali,5455,625,Senbag Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,24,0,3675152,3183940,2715692,1166155
+Chattogram Division,Noakhali,5455,625,Sonaimuri Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,43,0,3675152,3183940,2715692,1166155
+Chattogram Division,Noakhali,5455,625,Begumganj Upazila Health Complex,Government,10,0,0,0,10,3,0,0,0,10,3,0,0,,8,49,0,3675152,3183940,2715692,1166155
+Chattogram Division,Comilla,8803,1588,Brahmmanpara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,77,10,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Meghna Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,81,10,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Nangolkot Upazila Health Complex,Government,10,2,2,0,14,0,0,0,0,14,0,3,0,,3,55,12,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Comilla Sadar Daxin Upazila Health Complex,Government,10,2,0,5,17,0,0,0,0,17,0,5,0,,8,18,17,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Homna Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,76,0,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,Mirarsarai Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Raozan Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Surgiscope Hospital Limited,Private,10,4,4,3,21,0,0,0,0,21,0,8,0,,0,80,17,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Chittagong Specialized Treatment & Trauma Center (CSTC),Private,10,0,0,2,12,1,0,0,0,12,1,4,0,,2,35,25,8998864,8479243,7366503,3184851
+Chattogram Division,Comilla,8803,1588,Titas Upazila Health Complex,Government,13,0,0,0,13,0,0,0,0,13,0,0,0,,22,45,0,6371153,5311166,4500820,2303576
+Chattogram Division,Noakhali,5455,625,Chatkhil Upazila Health Complex,Government,14,0,0,0,14,0,0,0,0,14,0,0,0,,2,38,0,3675152,3183940,2715692,1166155
+Chattogram Division,Chattogram,28112,1517,Rangunia Upazila Health Complex,Government,14,0,0,0,14,0,0,0,0,14,0,0,0,,2,51,0,8998864,8479243,7366503,3184851
+Chattogram Division,Comilla,8803,1588,Chandina Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,6,10,0,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Barura Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,15,57,15,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,Chattogram Metropolitan Hospital Limited,Private,17,5,0,10,32,7,1,0,2,32,7,7,1,,0,200,32,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,"Max Hospital, CTG",Private,17,5,5,0,27,0,0,0,0,27,0,5,4,,0,30,81,8998864,8479243,7366503,3184851
+Chattogram Division,Bandarban,871,18,Naikhongchari Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,21,0,459524,374980,306847,124725
+Chattogram Division,Rangamati,1098,36,Rajasthali Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,25,0,705291,572659,468550,229780
+Chattogram Division,Rangamati,1098,36,Kaptai Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,28,0,705291,572659,468550,229780
+Chattogram Division,Rangamati,1098,36,Langadu Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,5,63,0,705291,572659,468550,229780
+Chattogram Division,Khagrachhari,773,46,Ramgarh Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,33,10,726616,615441,511116,231500
+Chattogram Division,Feni,2180,300,Chhagalnaya Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,27,69,10,1701368,1413063,1184197,588042
+Chattogram Division,Feni,2180,300,Parsuram Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,7,70,10,1701368,1413063,1184197,588042
+Chattogram Division,Laksmipur,2283,254,Kamolnagar Upazila Health Complex,Government,20,0,0,0,20,1,0,0,0,20,1,0,0,,0,0,0,2044365,1680657,1413513,570098
+Chattogram Division,Laksmipur,2283,254,Raipur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,4,38,0,2044365,1680657,1413513,570098
+Chattogram Division,Chandpur,2600,658,Faridganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2858667,2481208,2073258,1038982
+Chattogram Division,Chandpur,2600,658,Haimchar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2858667,2481208,2073258,1038982
+Chattogram Division,Chandpur,2600,658,Kachua Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,88,0,2858667,2481208,2073258,1038982
+Chattogram Division,Chandpur,2600,658,Matlab(daxin) Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,40,7,2858667,2481208,2073258,1038982
+Chattogram Division,Chandpur,2600,658,Matlab(uttar) Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,49,2858667,2481208,2073258,1038982
+Chattogram Division,Brahmanbaria,2714,529,Nasirnagar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Bijoynagar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,8,0,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Akhaura Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,29,0,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Nabinagar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,72,0,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Kashba Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,21,21,20,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Ashugonj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,33,20,3358309,2985788,2598789,1212167
+Chattogram Division,Brahmanbaria,2714,529,Bancharampur Upazila Health Complex,Government,20,0,0,0,20,2,0,0,0,20,2,0,0,,0,0,0,3358309,2985788,2598789,1212167
+Chattogram Division,Noakhali,5455,625,Companiganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,49,0,3675152,3183940,2715692,1166155
+Chattogram Division,Comilla,8803,1588,Burichong Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,37,0,6371153,5311166,4500820,2303576
+Chattogram Division,Comilla,8803,1588,Monoharganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,11,98,31,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,Sitakunda Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Satkania Upazila Health Complex,Government,20,0,0,0,20,3,0,0,0,20,3,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Banshkhali Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,10,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Patiya Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,3,28,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Lohagara Trauma Center,Private,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,32,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Lohagara Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,52,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Anwara Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,60,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,National Hospital Chattogram (Pvt.) Ltd,Private,20,0,0,0,20,4,0,0,0,20,4,5,4,,0,60,10,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Sandwip Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,24,20,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,"Medical center hospital, Chattogram",Private,20,3,0,7,30,9,1,0,2,30,9,6,0,,0,30,100,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Hathazari Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Chandanaish Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Dohazari 31 Beded Hospital,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Brahmanbaria,2714,529,Sarail Upazila Health Complex,Government,21,0,0,0,21,0,0,0,0,21,0,0,0,,3,20,0,3358309,2985788,2598789,1212167
+Chattogram Division,Chattogram,28112,1517,Boalkhali Upazila Health Complex,Government,23,0,0,0,23,0,0,0,0,23,0,1,0,,3,30,23,8998864,8479243,7366503,3184851
+Chattogram Division,Chandpur,2600,658,Saharasthi Upazila Health Complex,Government,24,0,0,0,24,0,0,0,0,24,0,0,0,,3,46,0,2858667,2481208,2073258,1038982
+Chattogram Division,Feni,2180,300,Sonagazi Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,6,74,0,1701368,1413063,1184197,588042
+Chattogram Division,Coxs Bazar,5608,335,Kutubdia Upazila Health Complex,Government,27,0,0,0,27,0,0,0,0,27,0,0,0,,18,78,0,2708537,2320282,1950805,748668
+Chattogram Division,Chattogram,28112,1517,"Imperial Hospital Limited, Chittagong",Private,27,4,0,0,31,0,0,0,0,31,0,12,0,,5,72,148,8998864,8479243,7366503,3184851
+Chattogram Division,Feni,2180,300,Daganbhuiya Upazila Health Complex,Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,12,97,30,1701368,1413063,1184197,588042
+Chattogram Division,Coxs Bazar,5608,335,Ukhyia Upazila Health Complex,Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,30,20,15,2708537,2320282,1950805,748668
+Chattogram Division,Chandpur,2600,658,Chandpur 250 Bed General Hospital,Government,30,0,0,0,30,26,0,0,0,30,26,3,3,,29,250,0,2858667,2481208,2073258,1038982
+Chattogram Division,Comilla,8803,1588,Laksham Upazila Health Complex,Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,5,10,16,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,Fatikchari Upazila Health Complex,Government,30,0,0,0,30,0,0,0,0,30,0,2,3,,2,49,24,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,"Bangabandhu Memorial Hospital,Chattogram",Private,30,5,6,22,63,18,0,6,7,63,18,6,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Comilla,8803,1588,Daudkandi Upazila Health Complex,Government,32,0,0,0,32,0,0,0,0,32,0,0,0,,8,105,26,6371153,5311166,4500820,2303576
+Chattogram Division,Coxs Bazar,5608,335,Cox's Bazar 250 Bed District Sadar Hospital,Government,39,10,0,10,59,0,0,0,0,59,0,17,0,,91,977,119,2708537,2320282,1950805,748668
+Chattogram Division,Chattogram,28112,1517,"Bangladesh Institute of Tropical and Infectious Diseases, Fouzdarhat",Government,45,5,0,0,50,4,0,0,0,50,4,10,10,,32,230,37,8998864,8479243,7366503,3184851
+Chattogram Division,Rangamati,1098,36,Rangamati General Hospital,Government,50,0,0,0,50,0,0,0,0,50,0,1,0,,13,116,0,705291,572659,468550,229780
+Chattogram Division,Khagrachhari,773,46,"Khagrachari District Hospital, Khagrachari",Government,50,0,0,0,50,0,0,0,0,50,0,5,5,,11,185,158,726616,615441,511116,231500
+Chattogram Division,Coxs Bazar,5608,335,Ramu Upazila Health Complex,Government,50,0,0,0,50,0,0,0,0,50,0,0,0,,0,51,0,2708537,2320282,1950805,748668
+Chattogram Division,Coxs Bazar,5608,335,Moheshkhali Upazila Health Complex,Government,50,0,0,0,50,0,0,0,0,50,0,2,0,,23,52,10,2708537,2320282,1950805,748668
+Chattogram Division,Coxs Bazar,5608,335,Chakaria Upazila Health Complex,Government,50,0,0,0,50,0,0,0,0,50,0,4,0,,26,164,44,2708537,2320282,1950805,748668
+Chattogram Division,Brahmanbaria,2714,529,Brahmanbaria 250 Bed District Sadar Hospital,Government,50,0,0,0,50,0,0,0,0,50,0,0,0,,28,200,20,3358309,2985788,2598789,1212167
+Chattogram Division,Chattogram,28112,1517,"Sultanpur 31 bed Hospital, Raozan",Government,50,0,0,0,50,0,0,0,0,50,0,0,0,,0,0,0,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,CMP-Bidyanondo Field Hospital,Private,50,0,0,0,50,2,0,0,0,50,2,4,0,,3,84,30,8998864,8479243,7366503,3184851
+Chattogram Division,Chattogram,28112,1517,Chattogram Maa Shishu O General Hospital,Private,69,7,0,9,85,13,1,0,1,85,13,25,28,,7,65,85,8998864,8479243,7366503,3184851
+Chattogram Division,Laksmipur,2283,254,Lakshmipur District Hospital,Government,80,3,5,0,88,0,0,0,0,88,0,5,5,,7,212,180,2044365,1680657,1413513,570098
+Chattogram Division,Bandarban,871,18,"Bandarban District Hospital, Bandarban",Government,100,0,0,0,100,0,0,0,0,100,0,5,4,,1,80,0,459524,374980,306847,124725
+Chattogram Division,Comilla,8803,1588,Cumilla General Hospital,Government,100,0,0,0,100,0,0,0,0,100,0,8,0,,20,159,100,6371153,5311166,4500820,2303576
+Chattogram Division,Noakhali,5455,625,Noakhali 250 Bed General Hospital,Government,120,0,0,0,120,18,0,0,0,120,18,8,0,,10,257,54,3675152,3183940,2715692,1166155
+Chattogram Division,Feni,2180,300,Feni 250 Bed District Sadar Hospital,Government,130,10,4,10,154,0,0,0,0,154,0,7,0,,38,400,150,1701368,1413063,1184197,588042
+Chattogram Division,Chattogram,28112,1517,"Chattogram General Hospital, Chattogram",Government,158,18,0,6,182,2,1,0,0,182,2,15,0,,9,350,250,8998864,8479243,7366503,3184851
+Chattogram Division,Comilla,8803,1588,Cumilla Medical College Hospital,Government,180,30,20,0,230,17,12,5,0,230,17,31,31,,68,217,142,6371153,5311166,4500820,2303576
+Chattogram Division,Chattogram,28112,1517,"Chattogram Medical College Hospital,Chattogram",Government,300,10,38,10,358,20,3,0,0,358,20,42,42,,20,335,845,8998864,8479243,7366503,3184851
+Dhaka Division,Rajbari,3352,231,Pangsha Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,1,0,,10,90,0,1240955,1013328,839720,486863
+Dhaka Division,Madaripur,1599,205,Rajoir Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1378479,1115943,897798,414858
+Dhaka Division,Manikganj,1713,247,Singair Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1645828,1460357,1236431,736788
+Dhaka Division,Manikganj,1713,247,Daulatpur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,2,34,0,1645828,1460357,1236431,736788
+Dhaka Division,Narsingdi,4251,331,Monohardi Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,1,0,,2,23,0,2632429,2244694,1906609,1108132
+Dhaka Division,Kishoreganj,3341,295,Itna Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Austagram Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,4,28,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Tarail Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,34,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Mithamoin Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3444162,3107537,2610114,1901520
+Dhaka Division,Narayanganj,8290,794,Sonargaon Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3495758,3400760,3046585,1606309
+Dhaka Division,Narayanganj,8290,794,Narayanganj 300 bed Hospital,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3495758,3400760,3046585,1606309
+Dhaka Division,Tangail,3601,480,Basail Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,4263359,3534706,2976370,1523597
+Dhaka Division,Tangail,3601,480,Modhupur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,4263359,3534706,2976370,1523597
+Dhaka Division,Tangail,3601,480,Kalihati Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Bangabandhu Sheikh Mujib Medical University (BSMMU),Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"National Institute of Mental Health and Research, Dhaka",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Sir Salimullah Medical College Mitford Hospital Dhaka,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"National Institute of Cancer Research and Hospital, Dhaka",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,4,7,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Enam Medical College & Hospital,Private,0,5,0,15,20,0,0,0,0,20,0,50,0,,30,350,20,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Labaid Hospital,Private,0,0,0,0,0,0,0,0,0,0,0,13,0,,0,120,252,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,National Institute of ENT,Government,0,0,0,0,0,0,0,0,0,0,0,2,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Nawabganj Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Yamagata Dhaka friendship Hospital,Private,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Faridpur,7981,465,Nagarkanda Upazila Health Complex,Government,2,0,0,0,2,0,0,0,0,2,0,0,0,,0,8,0,2261492,1884909,1521442,722855
+Dhaka Division,Narayanganj,8290,794,Narayanganj General (Victoria) Hospital (100bed),Government,2,0,0,0,2,0,0,0,0,2,0,0,0,,0,0,0,3495758,3400760,3046585,1606309
+Dhaka Division,Tangail,3601,480,Gopalpur Upazila Health Complex,Government,2,0,0,0,2,0,0,0,0,2,0,0,0,,11,30,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,"Square Hospital, Dhaka",Private,2,2,0,0,4,0,0,0,0,4,0,20,0,,0,5,4,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Proshanti Hospital,Private,2,6,0,0,8,0,0,0,0,8,0,10,0,,0,220,44,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Sarkari Karmachari Hospital- Fulbaria, Dhaka",Government,2,0,33,4,39,0,0,0,0,39,0,16,0,,4,105,100,14234404,14533865,12309249,5055570
+Dhaka Division,Kishoreganj,3341,295,Kuliarchar Upazila Health Complex,Government,3,0,0,0,3,0,0,0,0,3,0,0,0,,3,25,0,3444162,3107537,2610114,1901520
+Dhaka Division,Dhaka,150629,8410,IBN SINA Medical College Hospital,Private,3,3,10,0,16,0,0,0,0,16,0,10,0,,0,282,120,14234404,14533865,12309249,5055570
+Dhaka Division,Faridpur,7981,465,Modhukhali Upazila Health Complex,Government,4,0,0,0,4,0,0,0,0,4,0,0,0,,0,0,0,2261492,1884909,1521442,722855
+Dhaka Division,Dhaka,150629,8410,Bangladesh Specialized Hospital Limited,Private,4,2,0,0,6,0,0,0,0,6,0,13,0,,0,51,0,14234404,14533865,12309249,5055570
+Dhaka Division,Shariatpur,1854,179,Goshairhat Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,1366272,1100647,841628,468695
+Dhaka Division,Shariatpur,1854,179,Damudya Upazila Health Complex,Government,5,0,0,0,5,2,0,0,0,5,2,0,0,,2,0,0,1366272,1100647,841628,468695
+Dhaka Division,Shariatpur,1854,179,Bhedarganj Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,10,48,0,1366272,1100647,841628,468695
+Dhaka Division,Madaripur,1599,205,Kalkini Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,1,0,,4,32,0,1378479,1115943,897798,414858
+Dhaka Division,Faridpur,7981,465,Alfadanga Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,1,25,0,2261492,1884909,1521442,722855
+Dhaka Division,Faridpur,7981,465,Bhanga Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,2261492,1884909,1521442,722855
+Dhaka Division,Narsingdi,4251,331,Belabo Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,1,0,,0,15,0,2632429,2244694,1906609,1108132
+Dhaka Division,Kishoreganj,3341,295,Bajitpur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Karimganj Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,4,42,0,3444162,3107537,2610114,1901520
+Dhaka Division,Gazipur,6694,602,Kapasia Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,35,35,19,4034820,5386153,4400112,2053295
+Dhaka Division,Tangail,3601,480,Bhuapur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,50,0,4263359,3534706,2976370,1523597
+Dhaka Division,Tangail,3601,480,Mirzapur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,43,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Green Life Medical College Hospital,Private,5,3,0,2,10,0,0,0,0,10,0,16,0,,0,181,121,14234404,14533865,12309249,5055570
+Dhaka Division,Manikganj,1713,247,Harirampur Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,3,26,0,1645828,1460357,1236431,736788
+Dhaka Division,Faridpur,7981,465,Charbhadrason Upazila Health Complex,Government,6,0,0,0,6,1,0,0,0,6,1,0,0,,0,0,0,2261492,1884909,1521442,722855
+Dhaka Division,Faridpur,7981,465,Sadarpur Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,1,21,0,2261492,1884909,1521442,722855
+Dhaka Division,Faridpur,7981,465,"Faridpur General Hospital, Faridpur",Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,7,170,0,2261492,1884909,1521442,722855
+Dhaka Division,Dhaka,150629,8410,Evercare Hospital Limited Dhaka,Private,6,4,0,0,10,5,4,0,0,10,5,19,0,,0,253,341,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Keraniganj Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Savar Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Uttara Lake View Specialized Hospital (Pvt.) LTD,Private,7,1,4,8,20,0,0,0,0,20,0,4,0,,20,100,15,14234404,14533865,12309249,5055570
+Dhaka Division,Tangail,3601,480,Nagarpur Upazila Health Complex,Government,8,0,0,0,8,0,0,0,0,8,0,0,0,,10,30,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Uttara Cresent Hospital,Private,8,2,10,0,20,0,0,0,0,20,0,10,0,,0,200,16,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,AMZ Hospital Ltd.,Private,8,4,6,4,22,0,0,0,0,22,0,2,0,,1,230,16,14234404,14533865,12309249,5055570
+Dhaka Division,Shariatpur,1854,179,Zanjira Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,20,0,1366272,1100647,841628,468695
+Dhaka Division,Gopalganj,2929,205,Kotalipara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,1,0,,5,85,0,1385439,1205200,1022054,555947
+Dhaka Division,Gopalganj,2929,205,Kashiani Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,67,60,1385439,1205200,1022054,555947
+Dhaka Division,Gopalganj,2929,205,Mukshedpur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,1385439,1205200,1022054,555947
+Dhaka Division,Manikganj,1713,247,Shibalaya Upazila Health Complex,Government,10,0,0,0,10,4,0,0,0,10,4,0,0,,2,31,16,1645828,1460357,1236431,736788
+Dhaka Division,Faridpur,7981,465,Boalmari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,20,0,2261492,1884909,1521442,722855
+Dhaka Division,Narsingdi,4251,331,Raipura Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,38,0,2632429,2244694,1906609,1108132
+Dhaka Division,Kishoreganj,3341,295,Pakundia Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,27,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Nikli Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,35,0,3444162,3107537,2610114,1901520
+Dhaka Division,Gazipur,6694,602,Kaliganj GZ Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,90,0,4034820,5386153,4400112,2053295
+Dhaka Division,Tangail,3601,480,Dhanbari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,28,0,4263359,3534706,2976370,1523597
+Dhaka Division,Tangail,3601,480,Ghatail Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,42,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Dohar Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,89,18,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Dhanmondi General And Kidney Hospital Limited,Private,10,13,2,0,25,2,0,0,0,25,2,2,0,,23,60,23,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Millennium Heart & General Hospital Limited,Private,12,8,0,4,24,6,2,0,0,24,6,5,0,,0,60,24,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Hi-Care General Hospital Ltd, Dhaka",Private,12,10,8,8,38,0,0,0,0,38,0,8,0,,0,150,30,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,BIRDEM General Hospital,Private,12,9,8,7,36,7,0,0,7,36,7,11,0,,0,103,463,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Dhanmondi Clinic Pvt Ltd,Private,13,0,0,0,13,2,0,0,0,13,2,0,0,,5,120,40,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Dr. Azmal Hospital Ltd,Private,13,0,0,0,13,0,0,0,0,13,0,0,0,,1,40,58,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"AL-MANAR HOSPITAL LTD, Dhaka",Private,14,6,3,0,23,0,0,0,0,23,0,3,0,,1,96,20,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Care Medical College Hospital,Private,14,4,0,0,18,0,0,0,0,18,0,4,0,,0,140,200,14234404,14533865,12309249,5055570
+Dhaka Division,Kishoreganj,3341,295,Shahid Syed Nazrul Islam Medical College Hospital,Government,15,10,0,0,25,0,0,0,0,25,0,17,17,,36,343,340,3444162,3107537,2610114,1901520
+Dhaka Division,Dhaka,150629,8410,Gonoshasthaya Nagar Hospital,Private,15,0,5,5,25,0,0,0,0,25,0,3,0,,0,66,20,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Asgar Ali Hospital,Private,15,5,0,0,20,0,0,0,0,20,0,20,0,,0,180,228,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Monowara Hospital Ltd.,Private,16,2,2,2,22,0,0,0,0,22,0,2,0,,2,40,12,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,SAJIDA Foundation Hospital Keraniganj,Private,16,6,0,0,22,0,0,0,0,22,0,8,0,,10,115,22,14234404,14533865,12309249,5055570
+Dhaka Division,Shariatpur,1854,179,Naria Upazila Health Complex,Government,18,0,0,0,18,0,0,0,0,18,0,0,0,,1,21,0,1366272,1100647,841628,468695
+Dhaka Division,Kishoreganj,3341,295,Hossainpur Upazila Health Complex,Government,19,0,0,0,19,0,0,0,0,19,0,5,0,,5,33,0,3444162,3107537,2610114,1901520
+Dhaka Division,Rajbari,3352,231,Baliakandi Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,9,42,0,1240955,1013328,839720,486863
+Dhaka Division,Rajbari,3352,231,Kalukhali Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,10,44,0,1240955,1013328,839720,486863
+Dhaka Division,Rajbari,3352,231,"Rajbari District Hospital, Rajbari",Government,20,0,0,0,20,3,0,0,0,20,3,5,0,,15,152,119,1240955,1013328,839720,486863
+Dhaka Division,Shariatpur,1854,179,"Shariatpur District Hospital, Shariatpur",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,8,20,120,1366272,1100647,841628,468695
+Dhaka Division,Madaripur,1599,205,Shibchar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,1378479,1115943,897798,414858
+Dhaka Division,Manikganj,1713,247,Ghior Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,37,0,0,1645828,1460357,1236431,736788
+Dhaka Division,Manikganj,1713,247,Saturia Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,1645828,1460357,1236431,736788
+Dhaka Division,Munshiganj,4251,479,Sreenagar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,15,9,0,1708544,1463514,1189652,743139
+Dhaka Division,Munshiganj,4251,479,Tungibari Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,33,0,1708544,1463514,1189652,743139
+Dhaka Division,Munshiganj,4251,479,Gazaria Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,43,0,1708544,1463514,1189652,743139
+Dhaka Division,Munshiganj,4251,479,Louhajang Upazila Health Complex,Government,20,0,0,0,20,20,0,0,0,20,20,0,0,,40,0,0,1708544,1463514,1189652,743139
+Dhaka Division,Munshiganj,4251,479,Serajdikhan Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,51,0,1708544,1463514,1189652,743139
+Dhaka Division,Narsingdi,4251,331,Palash Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2632429,2244694,1906609,1108132
+Dhaka Division,Kishoreganj,3341,295,Kishoreganj 250 Bed District Sadar Hospital,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,3444162,3107537,2610114,1901520
+Dhaka Division,Kishoreganj,3341,295,Katiadi Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,20,10,,5,40,40,3444162,3107537,2610114,1901520
+Dhaka Division,Narayanganj,8290,794,Araihazar Upazila Health Complex,Government,20,0,0,0,20,3,0,0,0,20,3,10,0,,6,27,0,3495758,3400760,3046585,1606309
+Dhaka Division,Narayanganj,8290,794,Bandar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,3495758,3400760,3046585,1606309
+Dhaka Division,Narayanganj,8290,794,Rupganj Upazila Health Complex,Government,20,0,0,0,20,3,0,0,0,20,3,0,0,,0,0,0,3495758,3400760,3046585,1606309
+Dhaka Division,Gazipur,6694,602,Kaliakair Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,4034820,5386153,4400112,2053295
+Dhaka Division,Gazipur,6694,602,"Shaheed Ahsan Ullah Master General Hospital, Tongi, Gazipur",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,4034820,5386153,4400112,2053295
+Dhaka Division,Tangail,3601,480,Delduar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,4263359,3534706,2976370,1523597
+Dhaka Division,Tangail,3601,480,Sakhipur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,7,50,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Dhamrai Upazila Health Complex,Government,20,0,0,0,20,1,0,0,0,20,1,0,0,,0,24,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"National Institute of Kidney Diseases & Urology, Dhaka",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,85,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"National Institute of Traumatology & Orthopaedic Rehabilitation, Dhaka(NITO",Government,20,3,0,0,23,0,0,0,0,23,0,3,3,,0,10,20,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Ad-Din Medical College Hospital Mogbazar, Dhaka",Private,20,1,1,0,22,0,0,0,0,22,0,4,0,,0,100,132,14234404,14533865,12309249,5055570
+Dhaka Division,Rajbari,3352,231,Goalanda Upazila Health Complex,Government,22,0,0,0,22,0,0,0,0,22,0,0,0,,14,40,0,1240955,1013328,839720,486863
+Dhaka Division,Dhaka,150629,8410,Famous Specialized Hospital,Private,22,8,0,0,30,0,0,0,0,30,0,3,0,,18,128,30,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Z.H. Sikder Women's Medical College & Hospital Ltd,Private,22,4,0,0,26,0,0,0,0,26,0,6,0,,0,140,100,14234404,14533865,12309249,5055570
+Dhaka Division,Narsingdi,4251,331,Shibpur Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,0,115,28,2632429,2244694,1906609,1108132
+Dhaka Division,Gazipur,6694,602,Sreepur Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,12,28,0,4034820,5386153,4400112,2053295
+Dhaka Division,Dhaka,150629,8410,Insaf Barakah Kidney and General Hospital,Private,26,3,2,3,34,0,0,0,0,34,0,2,0,,2,100,31,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,National Heart Foundation Hospital & Research Institute,Private,26,0,4,6,36,0,0,0,0,36,0,4,0,,0,0,32,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Universal Medical College Hospital, Dhaka",Private,26,26,8,5,65,7,4,0,0,65,7,8,0,,1,157,50,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Japan Bangladesh Friendship Hospital, Dhaka",Private,28,12,0,0,40,0,0,0,0,40,0,8,8,,60,86,40,14234404,14533865,12309249,5055570
+Dhaka Division,Kishoreganj,3341,295,"Jahurul Islam Medical College and Hospital, Bajitpur, Kishoreganj",Private,29,3,3,4,39,0,0,0,0,39,0,3,3,,4,66,190,3444162,3107537,2610114,1901520
+Dhaka Division,Dhaka,150629,8410,Samorita Hospital Ltd,Private,32,8,10,4,54,0,0,0,0,54,0,10,0,,0,120,150,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Bangladesh Institute of Health Sciences General Hospital, Dhaka",Private,32,7,11,1,51,0,0,0,0,51,0,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Gopalganj,2929,205,Tungipara Upazila Health Complex,Government,34,0,0,0,34,0,0,0,0,34,0,2,2,,4,95,58,1385439,1205200,1022054,555947
+Dhaka Division,Gazipur,6694,602,Japan East West Medical College Hospital,Private,40,12,6,9,67,0,0,0,0,67,0,6,0,,8,50,65,4034820,5386153,4400112,2053295
+Dhaka Division,Dhaka,150629,8410,Bangladesh Medical College & Hospital,Private,41,6,4,0,51,1,0,0,0,51,1,3,0,,5,153,51,14234404,14533865,12309249,5055570
+Dhaka Division,Madaripur,1599,205,"Madaripur District Hospital, Madaripur",Government,42,0,0,0,42,0,0,0,0,42,0,5,0,,17,157,130,1378479,1115943,897798,414858
+Dhaka Division,Dhaka,150629,8410,"National Institute of Cardiovascular Diseases, Dhaka",Government,42,8,0,0,50,0,0,0,0,50,0,20,0,,3,120,50,14234404,14533865,12309249,5055570
+Dhaka Division,Kishoreganj,3341,295,Bhairab Upazila Health Complex,Government,45,0,0,0,45,0,0,0,0,45,0,0,0,,50,30,0,3444162,3107537,2610114,1901520
+Dhaka Division,Dhaka,150629,8410,"Infectious Diseases Hospital, Dhaka",Government,50,0,0,0,50,2,0,0,0,50,2,0,0,,0,100,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Shaheed Suhrawardy Medical College Hospital, Dhaka",Government,50,15,5,15,85,11,0,5,0,85,11,35,5,,15,400,500,14234404,14533865,12309249,5055570
+Dhaka Division,Tangail,3601,480,Kumudini Hospital,Private,52,8,3,0,63,5,0,0,0,63,5,3,0,,0,54,83,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,"United Hospital Limited, Dhaka",Private,53,15,0,0,68,0,0,0,0,68,0,33,0,,0,110,0,14234404,14533865,12309249,5055570
+Dhaka Division,Faridpur,7981,465,"Faridpur Medical College Hospital, Faridpur",Government,54,10,10,6,80,4,4,0,0,80,4,25,0,,45,510,70,2261492,1884909,1521442,722855
+Dhaka Division,Dhaka,150629,8410,Mugda Medical College and Hospital,Government,60,10,0,10,80,1,0,0,0,80,1,30,0,,5,100,100,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,National Institute of Neuro Science (NINS),Government,60,0,2,0,62,0,0,0,0,62,0,15,2,,15,119,119,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Better life Hospital, Rampura",Private,62,24,0,0,86,1,0,0,0,86,1,2,0,,0,220,200,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Kuwait Bangladesh Friendship Govt. Hospital,Government,64,16,0,0,80,58,13,0,0,80,58,41,1,,5,317,200,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Dhaka Central International Medical College & Hospital,Private,67,10,0,5,82,2,2,0,0,82,2,1,1,,25,100,82,14234404,14533865,12309249,5055570
+Dhaka Division,Manikganj,1713,247,Manikganj 250 Bed District Hospital,Government,96,2,0,2,100,1,0,0,0,100,1,13,0,,22,217,90,1645828,1460357,1236431,736788
+Dhaka Division,Gopalganj,2929,205,Gopalganj 250 bed General Hospital,Government,100,0,0,0,100,0,0,0,0,100,0,9,0,,1,0,0,1385439,1205200,1022054,555947
+Dhaka Division,Munshiganj,4251,479,Munshiganj 250 bed District Hospital,Government,100,10,0,0,110,0,0,0,0,110,0,4,0,,14,190,0,1708544,1463514,1189652,743139
+Dhaka Division,Narsingdi,4251,331,"Narsingdi District Hospital, Narsingdi",Government,100,0,0,0,100,0,0,0,0,100,0,0,0,,0,0,0,2632429,2244694,1906609,1108132
+Dhaka Division,Narsingdi,4251,331,"Narsingdi (100 bed) Zila Hospital, Narshingdi",Government,100,0,0,0,100,0,0,0,0,100,0,6,5,,18,210,100,2632429,2244694,1906609,1108132
+Dhaka Division,Gazipur,6694,602,"Shaheed Tajuddin Ahmad Medical College Hospital, Gazipur",Government,100,8,0,2,110,0,0,0,0,110,0,12,12,,87,550,281,4034820,5386153,4400112,2053295
+Dhaka Division,Dhaka,150629,8410,"National Institute of Ophthalmology, Dhaka(NIO)",Government,100,0,0,0,100,0,0,0,0,100,0,0,0,,0,58,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"National Institute of Diseases of the Chest and Hospital,Dhaka",Government,104,10,6,0,120,43,7,0,0,120,43,6,3,,20,50,70,14234404,14533865,12309249,5055570
+Dhaka Division,Tangail,3601,480,"Tangail District Hospital, Tangail",Government,106,10,13,0,129,0,0,0,0,129,0,8,7,,140,116,0,4263359,3534706,2976370,1523597
+Dhaka Division,Dhaka,150629,8410,Holy Family Red Cresent Medical College Hospital,Private,123,20,10,12,165,0,0,0,0,165,0,10,0,,12,192,40,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,250 Beded TB Hospital Shyamoli,Government,126,0,0,0,126,10,0,0,0,126,10,0,0,,0,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Popular Medical College & Hospital,Private,130,40,40,8,218,0,0,0,0,218,0,40,0,,0,400,170,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Anwar Khan Modern Medical College Hospital,Private,140,26,0,12,178,0,0,0,0,178,0,8,0,,2,750,178,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Sheikh Russel Gastro Liver Institute and Hospital,Government,174,16,0,0,190,0,0,0,0,190,0,0,0,,16,0,0,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Shahabuddin Medical College and Hospital, Gulshan",Private,178,12,0,10,200,0,0,0,0,200,0,8,8,,0,120,200,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Impulse Hospital,Private,250,56,0,0,306,0,0,0,0,306,0,30,0,,0,400,250,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,Kurmitola General Hospital ( 500 Bed ),Government,275,10,0,15,300,24,3,0,0,300,24,57,41,,30,439,500,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Central Police Hospital, Rajarbag, Dhaka",Government,470,15,0,15,500,203,2,0,1,500,203,26,0,,28,600,30,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,"Dhaka Medical College Hospital, Dhaka",Government,485,20,0,40,545,10,9,0,0,545,10,155,0,,6,1000,557,14234404,14533865,12309249,5055570
+Dhaka Division,Dhaka,150629,8410,DNCC Dedicated Covid-19 Hospital,Government,554,212,0,288,1054,1,1,0,0,1054,1,148,20,,83,650,524,14234404,14533865,12309249,5055570
+Khulna Division,Bagerhat,1032,263,Morrelganj Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,6,26,0,1744437,1492105,1318470,857434
+Khulna Division,Jhenaidah,2245,413,Moheshpur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,17,0,2095322,1755983,1470782,818712
+Khulna Division,Jhenaidah,2245,413,"Harinakunda Upazila Health Complex, Jhenaidah",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,8,65,0,2095322,1755983,1470782,818712
+Khulna Division,Satkhira,1147,106,"Shyamnagar Upazila Health Complex, Satkhira",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2346681,1954948,1671851,966327
+Khulna Division,Khulna,7027,698,"Shaheed Sheikh Abu Naser Specialized Hospital, Khulna",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2737948,2356277,2060111,1227987
+Khulna Division,Kushtia,3707,854,Kushtia 250 bed General Hospital,Government,2,4,0,6,12,0,0,0,0,12,0,44,0,,62,736,319,2301248,1899288,1608143,901267
+Khulna Division,Magura,1032,134,Sreepur MG Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,1085775,905046,774048,419808
+Khulna Division,Magura,1032,134,Shalikha Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,50,0,1085775,905046,774048,419808
+Khulna Division,Jhenaidah,2245,413,Kotchandpur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,8,84,0,2095322,1755983,1470782,818712
+Khulna Division,Jhenaidah,2245,413,Shailkupa Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,6,103,0,2095322,1755983,1470782,818712
+Khulna Division,Kushtia,3707,854,Bheramara Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,70,0,2301248,1899288,1608143,901267
+Khulna Division,Jashor,4542,589,Monirampur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,13,51,0,3270943,2784089,2392784,1317612
+Khulna Division,Meherpur,739,235,Mujibnagar Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,53,0,774792,642209,564729,329507
+Khulna Division,Meherpur,739,235,"Gangni Upazila Health Complex, Meherpur",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,11,63,0,774792,642209,564729,329507
+Khulna Division,Narail,1511,235,Kalia Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,7,53,0,853362,720849,639280,395167
+Khulna Division,Narail,1511,235,Lohagara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,9,53,0,853362,720849,639280,395167
+Khulna Division,Chuadanga,1619,262,Alamdanga Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,42,0,1335991,1249462,1056112,818635
+Khulna Division,Bagerhat,1032,263,Sarankhola Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,31,0,1744437,1492105,1318470,857434
+Khulna Division,Bagerhat,1032,263,Kachua BH Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,35,0,1744437,1492105,1318470,857434
+Khulna Division,Bagerhat,1032,263,Chitalmari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,36,0,1744437,1492105,1318470,857434
+Khulna Division,Kushtia,3707,854,Khoksha Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,73,0,2301248,1899288,1608143,901267
+Khulna Division,Satkhira,1147,106,"Tala Upazila Health Complex, Satkhira",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2346681,1954948,1671851,966327
+Khulna Division,Satkhira,1147,106,"Kaliganj SK Upazila Health Complex, Satkhira",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,22,0,2346681,1954948,1671851,966327
+Khulna Division,Satkhira,1147,106,"Assasuni Upazila Health Complex, Satkhira",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,36,0,2346681,1954948,1671851,966327
+Khulna Division,Satkhira,1147,106,"Satkhira District Hospital, Satkhira",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,180,10,2346681,1954948,1671851,966327
+Khulna Division,Satkhira,1147,106,Debhata Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,15,0,2346681,1954948,1671851,966327
+Khulna Division,Khulna,7027,698,Dighalia Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,4,0,,0,47,0,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Koyra Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,4,0,,3,32,10,2737948,2356277,2060111,1227987
+Khulna Division,Jashor,4542,589,Sarsa Upazila Health Complex,Government,12,0,0,0,12,0,0,0,0,12,0,0,0,,0,0,0,3270943,2784089,2392784,1317612
+Khulna Division,Satkhira,1147,106,"Kalaroa Upazila Health Complex, Satkhira",Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,0,0,0,2346681,1954948,1671851,966327
+Khulna Division,Khulna,7027,698,Paikgacha Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,4,4,,44,15,15,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Fultala Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,4,4,,1,53,15,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Rupsha Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,4,4,,3,32,20,2737948,2356277,2060111,1227987
+Khulna Division,Magura,1032,134,Mohammadpur Upazila Health Complex,Government,17,0,0,0,17,0,0,0,0,17,0,0,0,,3,40,0,1085775,905046,774048,419808
+Khulna Division,Jhenaidah,2245,413,Kaliganj JD Upazila Health Complex,Government,17,0,0,0,17,0,0,0,0,17,0,0,0,,6,40,0,2095322,1755983,1470782,818712
+Khulna Division,Bagerhat,1032,263,Rampal Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,1744437,1492105,1318470,857434
+Khulna Division,Bagerhat,1032,263,Fakirhat Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,4,0,,3,25,0,1744437,1492105,1318470,857434
+Khulna Division,Bagerhat,1032,263,Mongla Upazila Health Complex,Government,20,0,0,0,20,6,0,0,0,20,6,0,0,,4,52,0,1744437,1492105,1318470,857434
+Khulna Division,Jhenaidah,2245,413,"Jhenaidah District Hospital, Jhenaidah",Government,20,0,0,0,20,1,0,0,0,20,1,15,3,,3,299,175,2095322,1755983,1470782,818712
+Khulna Division,Kushtia,3707,854,"Kumarkhali Upazila Health Complex, Kushtia",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,71,71,0,2301248,1899288,1608143,901267
+Khulna Division,Khulna,7027,698,Dacope Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,4,0,,2,30,20,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Terakhada Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,4,4,,0,32,20,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Batiaghata Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,2,0,,11,37,20,2737948,2356277,2060111,1227987
+Khulna Division,Khulna,7027,698,Dumuria Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,4,0,,1,42,20,2737948,2356277,2060111,1227987
+Khulna Division,Jashor,4542,589,Jhikargacha Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,6,39,0,3270943,2784089,2392784,1317612
+Khulna Division,Jashor,4542,589,Jassore 250 bed General Hospital,Government,20,10,5,3,38,0,0,0,0,38,0,24,24,,60,575,278,3270943,2784089,2392784,1317612
+Khulna Division,Bagerhat,1032,263,Mollahat Upazila Health Complex,Government,23,0,0,0,23,1,0,0,0,23,1,3,0,,0,55,23,1744437,1492105,1318470,857434
+Khulna Division,Jashor,4542,589,Keshabpur Upazila Health Complex,Government,23,0,0,0,23,0,0,0,0,23,0,2,0,,6,60,0,3270943,2784089,2392784,1317612
+Khulna Division,Jashor,4542,589,Bagherpara Upazila Health Complex,Government,25,0,0,0,25,2,0,0,0,25,2,0,0,,8,38,0,3270943,2784089,2392784,1317612
+Khulna Division,Chuadanga,1619,262,Jibannagar Upazila Health Complex,Government,26,0,0,0,26,0,0,0,0,26,0,0,0,,0,60,5,1335991,1249462,1056112,818635
+Khulna Division,Jashor,4542,589,Chowgacha Upazila Health Complex,Government,26,0,0,0,26,0,0,0,0,26,0,0,0,,9,60,0,3270943,2784089,2392784,1317612
+Khulna Division,Jashor,4542,589,"Jessore Chest Hospital, Jessore",Government,28,0,0,0,28,0,0,0,0,28,0,0,0,,0,29,0,3270943,2784089,2392784,1317612
+Khulna Division,Chuadanga,1619,262,Damurhuda Upazila Health Complex,Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,40,40,14,1335991,1249462,1056112,818635
+Khulna Division,Kushtia,3707,854,"Daulatpur KT Upazila Health Complex, Kushtia",Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,4,120,38,2301248,1899288,1608143,901267
+Khulna Division,Kushtia,3707,854,"Mirpur Upazila Health Complex, Kushtia",Government,31,0,0,0,31,0,0,0,0,31,0,2,2,,7,124,20,2301248,1899288,1608143,901267
+Khulna Division,Meherpur,739,235,Meherpur 250 bed District Hospital,Government,40,5,0,5,50,0,0,0,0,50,0,19,0,,42,138,166,774792,642209,564729,329507
+Khulna Division,Jashor,4542,589,Abhoynagar Upazila Health Complex,Government,40,0,0,0,40,0,0,0,0,40,0,0,0,,29,40,0,3270943,2784089,2392784,1317612
+Khulna Division,Magura,1032,134,"Magura District Hospital, Magura",Government,50,0,0,0,50,0,0,0,0,50,0,10,10,,11,30,90,1085775,905046,774048,419808
+Khulna Division,Satkhira,1147,106,Satkhira 250 bed Medical College Hospital,Government,69,8,0,0,77,15,8,0,0,77,15,63,51,,13,460,250,2346681,1954948,1671851,966327
+Khulna Division,Bagerhat,1032,263,"Bagerhat District Hospital, Bagerhat",Government,70,10,0,0,80,0,0,0,0,80,0,9,9,,7,75,60,1744437,1492105,1318470,857434
+Khulna Division,Khulna,7027,698,"Khulna District Hospital, Khulna",Government,80,0,0,0,80,0,0,0,0,80,0,22,22,,96,16,80,2737948,2356277,2060111,1227987
+Khulna Division,Narail,1511,235,"Narail District Hospital, Narail",Government,100,0,0,0,100,1,0,0,0,100,1,6,0,,8,10,100,853362,720849,639280,395167
+Khulna Division,Khulna,7027,698,Gazi Medical College Hospital,Private,130,9,9,11,159,5,0,0,2,159,5,9,9,,1,550,85,2737948,2356277,2060111,1227987
+Khulna Division,Chuadanga,1619,262,"Chuadanga District Hospital, Chuadanga",Government,136,6,4,8,154,0,0,0,0,154,0,10,10,,20,199,118,1335991,1249462,1056112,818635
+Khulna Division,Khulna,7027,698,"Khulna Medical College Hospital, Khulna",Government,150,30,0,20,200,4,0,0,0,200,4,10,10,,10,71,71,2737948,2356277,2060111,1227987
+Mymensingh Division,Netrokona,817,164,Barhatta Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Khaliajuri Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,14,15,0,2635047,2167145,1768739,889606
+Mymensingh Division,Jamalpur,1753,171,Madarganj Upazila Health Complex,Government,5,0,0,5,10,0,0,0,0,10,0,0,0,,2,41,41,2711941,2261378,1918804,949825
+Mymensingh Division,Sherpur,542,118,Nalitabari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,34,0,1606370,1353803,1151670,707129
+Mymensingh Division,Sherpur,542,118,Nakla Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,10,0,,3,59,0,1606370,1353803,1151670,707129
+Mymensingh Division,Netrokona,817,164,Durgapur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Purbadhala Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,22,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Kalmakanda Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,25,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Atpara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,28,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Kendua Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,33,0,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Mohanganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,20,0,,0,0,16,2635047,2167145,1768739,889606
+Mymensingh Division,Netrokona,817,164,Madan Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,11,27,0,2635047,2167145,1768739,889606
+Mymensingh Division,Jamalpur,1753,171,Bakshiganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2711941,2261378,1918804,949825
+Mymensingh Division,Jamalpur,1753,171,Islampur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2711941,2261378,1918804,949825
+Mymensingh Division,Jamalpur,1753,171,Melandaha Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2711941,2261378,1918804,949825
+Mymensingh Division,Jamalpur,1753,171,Sarishabari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,37,0,2711941,2261378,1918804,949825
+Mymensingh Division,Sherpur,542,118,Jhenaigati Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,5,22,0,1606370,1353803,1151670,707129
+Mymensingh Division,Sherpur,542,118,Sribordi Upazila health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,5,25,0,1606370,1353803,1151670,707129
+Mymensingh Division,Jamalpur,1753,171,Dewanganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,15,37,0,2711941,2261378,1918804,949825
+Mymensingh Division,Mymensingh,4278,458,Gouripur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Trisal Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Gofargaon Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,10,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Haluaghat Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,10,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Bhaluka Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,25,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Muktagacha Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,11,26,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Fulbaria Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,1,0,,11,27,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Fulpur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,11,39,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Nandail Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,42,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Dhubaura Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Mymensingh,4278,458,Iswarganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,6041985,5128978,4200316,1722485
+Mymensingh Division,Netrokona,817,164,"Netrokona District Hospital, Netrokona",Government,36,0,0,0,36,0,0,0,0,36,0,0,0,,13,133,150,2635047,2167145,1768739,889606
+Mymensingh Division,Jamalpur,1753,171,Jamalpur 250 Beded General Hospital,Government,68,2,0,2,72,0,0,0,0,72,0,20,0,,4,120,190,2711941,2261378,1918804,949825
+Mymensingh Division,Sherpur,542,118,"Sherpur District Hospital, Sherpur",Government,100,0,0,0,100,0,0,0,0,100,0,14,14,,7,150,250,1606370,1353803,1151670,707129
+Mymensingh Division,Mymensingh,4278,458,"Mymensingh Medical College Hospital, Mymensingh",Government,380,25,0,0,405,33,2,0,0,405,33,48,1,,128,1400,405,6041985,5128978,4200316,1722485
+Rajshahi Division,Joypurhat,1250,119,Kalai Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1080816,901524,797849,537917
+Rajshahi Division,Chapai Nawabganj,811,177,Nachol Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1949398,1616157,1399796,837714
+Rajshahi Division,Pabna,1544,198,Iswardi Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Rajshahi,5687,394,Bagmara Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Rajshahi,5687,394,Charghat Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,5,30,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Naogaon,1499,205,Niamatpur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Sirajganj,2489,195,Chowhali Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Sirajganj,2489,195,Sirajganj 250 Bed Bongamata Sheikh Fazilatunnesa Mujib General Hospital,Government,0,0,0,0,0,0,0,0,0,0,0,5,0,,45,290,260,3662622,3052873,2617543,1691225
+Rajshahi Division,Bogura,9240,661,Sariakandi Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Naogaon,1499,205,Badalgachi Upazila Health Complex,Government,3,0,0,0,3,0,0,0,0,3,0,0,0,,0,0,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Rajshahi,5687,394,"Godagari 31 beded Hospital, Rajshahi",Government,4,0,0,0,4,0,0,0,0,4,0,0,0,,0,21,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Joypurhat,1250,119,Panchbibi Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,23,0,1080816,901524,797849,537917
+Rajshahi Division,Joypurhat,1250,119,Khetlal Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,30,0,1080816,901524,797849,537917
+Rajshahi Division,Natore,1162,212,"Natore District Hospital, Natore",Government,5,0,0,0,5,0,0,0,0,5,0,2,0,,20,350,58,2018291,1679176,1453631,808858
+Rajshahi Division,Naogaon,1499,205,Manda Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,36,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Naogaon,1499,205,"Naogaon District Hospital, Naogaon",Government,5,0,0,0,5,0,0,0,0,5,0,9,6,,10,218,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Sirajganj,2489,195,Shahzadpur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Bogura,9240,661,Kahaloo Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Dhupchachia Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,0,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Shajahanpur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,12,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Nandigram Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,13,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Sonatala Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,15,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Sherpur Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,3,40,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Shibganj Bogra Upazila Health Complex,Government,5,9,0,0,14,0,0,0,0,14,0,0,0,,3,41,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Rajshahi,5687,394,Godagari Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,10,23,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Chapai Nawabganj,811,177,Shibganj NG Upazila Health Complex,Government,8,0,0,0,8,0,0,0,0,8,0,0,0,,20,32,0,1949398,1616157,1399796,837714
+Rajshahi Division,Natore,1162,212,Bagatipara Upazila Health Complex,Government,8,0,0,0,8,0,0,0,0,8,0,0,0,,5,29,13,2018291,1679176,1453631,808858
+Rajshahi Division,Joypurhat,1250,119,Akkelpur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,30,32,1080816,901524,797849,537917
+Rajshahi Division,Chapai Nawabganj,811,177,Bholahat Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,46,0,1949398,1616157,1399796,837714
+Rajshahi Division,Chapai Nawabganj,811,177,Chapai Nababganj 250 bed Adhunik Sadar Hospital,Government,10,0,0,0,10,0,0,0,0,10,0,8,7,,24,218,72,1949398,1616157,1399796,837714
+Rajshahi Division,Natore,1162,212,Baraigram Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2018291,1679176,1453631,808858
+Rajshahi Division,Natore,1162,212,Singra Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2018291,1679176,1453631,808858
+Rajshahi Division,Natore,1162,212,Gurudashpur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,28,0,2018291,1679176,1453631,808858
+Rajshahi Division,Pabna,1544,198,Bhangura Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,22,32,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,Atghoria Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,11,40,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,Bera Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,45,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,Faridpur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,34,4,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,"Pabna District Hospital, Pabna",Government,10,0,0,0,10,0,0,0,0,10,0,1,0,,21,450,290,2984720,2534057,2129172,1220117
+Rajshahi Division,Rajshahi,5687,394,Paba Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,15,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Rajshahi,5687,394,Tanore Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,10,22,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Rajshahi,5687,394,Bagha Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,30,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Rajshahi,5687,394,Puthia Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,56,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Naogaon,1499,205,Raninagar Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,29,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Naogaon,1499,205,Dhamairhat Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,12,41,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Naogaon,1499,205,Porsha Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,56,18,3072535,2453328,2174811,1360703
+Rajshahi Division,Naogaon,1499,205,Sapahar Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,6,83,18,3072535,2453328,2174811,1360703
+Rajshahi Division,Sirajganj,2489,195,Tarash Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,20,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Sirajganj,2489,195,Ullapara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,27,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Sirajganj,2489,195,Belkuchi Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,30,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Sirajganj,2489,195,Kamarkhanda Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,50,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Sirajganj,2489,195,Raiganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,58,0,3662622,3052873,2617543,1691225
+Rajshahi Division,Bogura,9240,661,Dhunat Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,24,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Naogaon,1499,205,Mohadevpur Upazila Health Complex,Government,12,0,0,0,12,0,0,0,0,12,0,0,0,,0,29,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Naogaon,1499,205,Atrai Upazila Health Complex,Government,12,0,0,0,12,0,0,0,0,12,0,0,0,,7,23,18,3072535,2453328,2174811,1360703
+Rajshahi Division,Bogura,9240,661,"Mohammad Ali District Hospital , Bogra",Government,12,8,0,10,30,0,0,0,0,30,0,18,18,,10,277,277,4024789,3263043,2830764,1725364
+Rajshahi Division,Rajshahi,5687,394,Durgapur Upazila Health Complex,Government,14,0,0,0,14,0,0,0,0,14,0,0,0,,0,0,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Rajshahi,5687,394,Mohanpur Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,0,0,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Naogaon,1499,205,Patnitala Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,3,38,0,3072535,2453328,2174811,1360703
+Rajshahi Division,Joypurhat,1250,119,"Joypurhat District Hospital, Joypurhat",Government,20,0,0,0,20,4,0,0,0,20,4,7,1,,23,422,170,1080816,901524,797849,537917
+Rajshahi Division,Chapai Nawabganj,811,177,Gomastapur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,1,33,10,1949398,1616157,1399796,837714
+Rajshahi Division,Natore,1162,212,Lalpur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,2,0,,5,52,20,2018291,1679176,1453631,808858
+Rajshahi Division,Pabna,1544,198,Chatmohar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,32,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,Sujanagar Upazila Health Complex,Government,20,0,0,0,20,5,0,0,0,20,5,0,0,,17,49,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Pabna,1544,198,Santhia Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2984720,2534057,2129172,1220117
+Rajshahi Division,Sirajganj,2489,195,Kazipur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,7,86,65,3662622,3052873,2617543,1691225
+Rajshahi Division,Bogura,9240,661,Adamdighi Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,4,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,Gabtali Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,3,29,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,TMSS Medical College & Rafatullah Community Hospital,Private,21,10,0,5,36,1,0,0,0,36,1,10,0,,23,380,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Bogura,9240,661,TMSS Medical College & Rafatullah Community Hospital,Private,21,10,0,5,36,1,0,0,0,36,1,10,0,,23,380,0,4024789,3263043,2830764,1725364
+Rajshahi Division,Rajshahi,5687,394,"Rajshahi Medical College Hospital, Rajshahi",Government,24,0,0,0,24,13,0,0,0,24,13,91,91,,0,0,0,3070012,2717527,2398563,1399595
+Rajshahi Division,Bogura,9240,661,"Shaheed Ziaur Rahman Medical College Hospital, Bogra",Government,50,20,20,0,90,0,0,0,0,90,0,27,27,,27,674,480,4024789,3263043,2830764,1725364
+Rangpur Division,Thakurgaon,1442,262,Pirganj TG Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,13,62,0,1642967,1343464,1164801,629644
+Rangpur Division,Nilphamari,1280,99,Saidpur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2169154,1840521,1573371,796979
+Rangpur Division,Rangpur,3803,332,Mithapukur Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,8,56,0,3407352,2886982,2563551,1256019
+Rangpur Division,Rangpur,3803,332,Badarganj Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3407352,2886982,2563551,1256019
+Rangpur Division,Dinajpur,4295,389,Fulbari DP Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Birol Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,5,22,20,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,"Dinajpur District Hospital, Dinajpur",Government,0,0,0,0,0,0,0,0,0,0,0,4,0,,25,18,250,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Kaharol Upazila Health Complex,Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,3536185,2930133,2514087,1443838
+Rangpur Division,Kurigram,987,78,Rajarhat Upazila Health Complex,Government,2,0,0,0,2,0,0,0,0,2,0,0,0,,6,41,0,2446029,2009628,1727810,735324
+Rangpur Division,Rangpur,3803,332,"Haragacha 31 bed Hospital, Rangpur",Government,2,0,0,0,2,1,0,0,0,2,1,0,0,,0,22,0,3407352,2886982,2563551,1256019
+Rangpur Division,Rangpur,3803,332,Kownia Upazila Health Complex,Government,3,0,0,0,3,0,0,0,0,3,0,0,0,,0,0,0,3407352,2886982,2563551,1256019
+Rangpur Division,Dinajpur,4295,389,"M Abdur Rahim Medical College Hospital, Dinajpur",Government,3,16,0,11,30,0,0,0,0,30,0,25,25,,13,155,93,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Ghoraghat Upazila Health Complex,Government,4,0,0,0,4,0,0,0,0,4,0,1,1,,12,45,0,3536185,2930133,2514087,1443838
+Rangpur Division,Panchaghar,753,96,Debiganj Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,36,0,1166903,1042345,886029,524892
+Rangpur Division,Kurigram,987,78,Chilmari Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,6,25,0,2446029,2009628,1727810,735324
+Rangpur Division,Kurigram,987,78,Fulbari KG Upazila Health Complex,Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,5,28,0,2446029,2009628,1727810,735324
+Rangpur Division,Lalmonirhat,942,83,Patgram Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,0,0,0,1484293,1207204,1039817,509511
+Rangpur Division,Lalmonirhat,942,83,Hatibandha Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,0,33,0,1484293,1207204,1039817,509511
+Rangpur Division,Kurigram,987,78,Nageswari Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,0,0,0,2446029,2009628,1727810,735324
+Rangpur Division,Kurigram,987,78,Rajibpur Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,2,12,6,2446029,2009628,1727810,735324
+Rangpur Division,Gaibandha,1403,90,Shaghatta Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,10,7,,3,14,0,2810729,2366437,2008723,805279
+Rangpur Division,Gaibandha,1403,90,Gobindaganj Upazila Health Complex,Government,6,0,0,0,6,0,0,0,0,6,0,10,0,,5,40,0,2810729,2366437,2008723,805279
+Rangpur Division,Lalmonirhat,942,83,Aditmari Upazila Health Complex,Government,7,0,0,0,7,0,0,0,0,7,0,0,0,,0,40,0,1484293,1207204,1039817,509511
+Rangpur Division,Rangpur,3803,332,Pirgacha Upazila Health Complex,Government,7,0,0,0,7,0,0,0,0,7,0,0,0,,0,23,0,3407352,2886982,2563551,1256019
+Rangpur Division,Lalmonirhat,942,83,"Lalmonirhat District Hospital, Lalmonirhat",Government,8,0,0,0,8,6,0,0,0,8,6,6,1,,4,130,8,1484293,1207204,1039817,509511
+Rangpur Division,Lalmonirhat,942,83,Kaliganj LH Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,45,0,1484293,1207204,1039817,509511
+Rangpur Division,Nilphamari,1280,99,Jaldhaka Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,40,0,2169154,1840521,1573371,796979
+Rangpur Division,Nilphamari,1280,99,Dimla Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,42,0,2169154,1840521,1573371,796979
+Rangpur Division,Kurigram,987,78,Ulipur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,12,0,0,2446029,2009628,1727810,735324
+Rangpur Division,Kurigram,987,78,Bhurungamari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,12,20,0,2446029,2009628,1727810,735324
+Rangpur Division,Kurigram,987,78,Rowmari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2446029,2009628,1727810,735324
+Rangpur Division,Gaibandha,1403,90,Palashbari Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,4,19,0,2810729,2366437,2008723,805279
+Rangpur Division,Gaibandha,1403,90,Sadullapur Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,5,25,0,2810729,2366437,2008723,805279
+Rangpur Division,Rangpur,3803,332,Gangachara Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,21,0,3407352,2886982,2563551,1256019
+Rangpur Division,Rangpur,3803,332,Taraganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,1,27,0,3407352,2886982,2563551,1256019
+Rangpur Division,Dinajpur,4295,389,Birganj Upazila Health Complex,Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,3,25,0,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Bochaganj Upazila Health Complex,Government,10,0,0,0,10,8,0,0,0,10,8,0,0,,4,25,40,3536185,2930133,2514087,1443838
+Rangpur Division,Rangpur,3803,332,Pirganj RP Upazila Health Complex,Government,12,0,0,0,12,0,0,0,0,12,0,0,0,,7,25,0,3407352,2886982,2563551,1256019
+Rangpur Division,Dinajpur,4295,389,Chirirbandar Upazila Health Complex,Government,13,0,0,0,13,0,0,0,0,13,0,3,3,,3,2,0,3536185,2930133,2514087,1443838
+Rangpur Division,Nilphamari,1280,99,Kishoreganj Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,1,15,0,2169154,1840521,1573371,796979
+Rangpur Division,Gaibandha,1403,90,Fulchari Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,3,27,0,2810729,2366437,2008723,805279
+Rangpur Division,Rangpur,3803,332,Prime Medical College & Hospital,Private,15,8,0,0,23,0,0,0,0,23,0,4,0,,0,32,17,3407352,2886982,2563551,1256019
+Rangpur Division,Dinajpur,4295,389,Parbatipur Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,16,39,0,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Hakimpur Upazila Health Complex,Government,15,0,0,0,15,0,0,0,0,15,0,0,0,,4,35,15,3536185,2930133,2514087,1443838
+Rangpur Division,Panchaghar,753,96,Boda Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,45,0,1166903,1042345,886029,524892
+Rangpur Division,Panchaghar,753,96,Tetulia Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,4,66,0,1166903,1042345,886029,524892
+Rangpur Division,Panchaghar,753,96,"Panchagarh District Hospital, Panchagarh",Government,20,0,0,0,20,2,0,0,0,20,2,4,0,,9,259,0,1166903,1042345,886029,524892
+Rangpur Division,Panchaghar,753,96,Atwari Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,4,44,25,1166903,1042345,886029,524892
+Rangpur Division,Nilphamari,1280,99,Domar Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,4,32,0,2169154,1840521,1573371,796979
+Rangpur Division,Gaibandha,1403,90,Sundarganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,5,20,0,2810729,2366437,2008723,805279
+Rangpur Division,Dinajpur,4295,389,Birampur Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,24,0,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Nawabganj DP Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,42,0,3536185,2930133,2514087,1443838
+Rangpur Division,Dinajpur,4295,389,Khansama Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,13,55,15,3536185,2930133,2514087,1443838
+Rangpur Division,Thakurgaon,1442,262,Ranisankhail Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,3,25,0,1642967,1343464,1164801,629644
+Rangpur Division,Thakurgaon,1442,262,Haripur Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,34,34,0,1642967,1343464,1164801,629644
+Rangpur Division,Thakurgaon,1442,262,Baliadangi Upazila Health Complex,Government,25,0,0,0,25,0,0,0,0,25,0,0,0,,5,42,6,1642967,1343464,1164801,629644
+Rangpur Division,Rangpur,3803,332,"Doctors Community Hospital Private Ltd, Rangpur",Private,30,4,0,0,34,4,0,0,0,34,4,4,0,,0,15,34,3407352,2886982,2563551,1256019
+Rangpur Division,Nilphamari,1280,99,"100 Bed Hospital, Saidpur, Nilphamari",Government,40,0,0,0,40,0,0,0,0,40,0,4,4,,10,46,17,2169154,1840521,1573371,796979
+Rangpur Division,Gaibandha,1403,90,"Gaibandha District Hospital, Gaibandha",Government,42,0,0,0,42,0,0,0,0,42,0,0,0,,20,203,0,2810729,2366437,2008723,805279
+Rangpur Division,Kurigram,987,78,"Kurigram District Hospital, Kurigram",Government,50,0,0,0,50,3,0,0,0,50,3,0,0,,0,201,0,2446029,2009628,1727810,735324
+Rangpur Division,Rangpur,3803,332,"Rangpur Medical College Hospital, Rangpur",Government,84,8,0,8,100,2,0,0,1,100,2,18,1,,12,36,98,3407352,2886982,2563551,1256019
+Rangpur Division,Nilphamari,1280,99,"Nilphamari District Hospital, Nilphamari",Government,100,0,0,0,100,0,0,0,0,100,0,5,0,,10,146,100,2169154,1840521,1573371,796979
+Rangpur Division,Thakurgaon,1442,262,"Thakurgaon District Hospital, Thakurgaon",Government,200,0,0,0,200,0,0,0,0,200,0,9,9,,23,153,186,1642967,1343464,1164801,629644
+Sylhet Division,Habiganj,1934,133,"Chunarughat Upazila Health Complex,Habiganj",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2468875,2132834,1779910,1075919
+Sylhet Division,Sunamganj,2495,183,"Sulla Upazila Health Complex,Sunamganj",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,"Gowainghat Upazila Health Complex,Sylhet",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Kanaighat Upazila Health Complex,Sylhet",Government,0,0,0,0,0,0,0,0,0,0,0,0,0,,2,16,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,Oasis Hospital Sylhet,Private,2,0,0,0,2,2,0,0,0,2,2,0,0,,6,30,80,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Zakiganj Upazila Health Complex,Sylhet",Government,3,0,0,0,3,0,0,0,0,3,0,0,0,,25,20,0,4056453,3444750,2929105,1183611
+Sylhet Division,Habiganj,1934,133,"Lakhai Upazila Health Complex,Habiganj",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,1,24,0,2468875,2132834,1779910,1075919
+Sylhet Division,Habiganj,1934,133,"Azmiriganj Upazila Health Complex,Habiganj",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,13,26,0,2468875,2132834,1779910,1075919
+Sylhet Division,Habiganj,1934,133,"Baniachong Upazila Health Complex, Habiganj",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,39,0,2468875,2132834,1779910,1075919
+Sylhet Division,Sunamganj,2495,183,"Jamalganj Upazila Health Complex,Sunamganj",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,2,41,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,"Balaganj Upazila Health Complex,Sylhet",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,0,0,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Fenchuganj Upazila Health Complex,Sylhet",Government,5,0,0,0,5,0,0,0,0,5,0,0,0,,7,0,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sunamganj,2495,183,"Jagannathpur Upazila Health Complex, Sunamganj",Government,6,0,0,0,6,0,0,0,0,6,0,0,0,,7,52,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,Parkview Hospital Ltd,Private,8,2,9,0,19,1,0,0,0,19,1,0,0,,0,0,0,4056453,3444750,2929105,1183611
+Sylhet Division,Maulavi Bazar,1854,207,"Barlekha Upazila Health Complex,Moulvibazar",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,10,10,0,2267809,2047456,1736033,929214
+Sylhet Division,Maulavi Bazar,1854,207,"Juri Upazila Health Complex,Moulvibazar",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,40,0,2267809,2047456,1736033,929214
+Sylhet Division,Habiganj,1934,133,"Bahubal Upazila Health Complex,Habiganj",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2468875,2132834,1779910,1075919
+Sylhet Division,Sunamganj,2495,183,"Dowarabazar Upazila Health Complex,Sunamganj",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sunamganj,2495,183,"Biswambarpur Upazila Health Complex,Sunamganj",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,2,34,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sunamganj,2495,183,"Chhatak Upazila Health Complex,Sunamganj",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,12,42,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sunamganj,2495,183,"Dharmapasha Upazila Health Complex,Sunamganj",Government,10,0,0,0,10,10,0,0,0,10,10,0,0,,2,33,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,"Jaintiapur Upazila Health Complex,Sylhet",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,0,0,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Beani Bazar Upazila Health Complex,Sylhet",Government,10,0,0,0,10,0,0,0,0,10,0,0,0,,7,21,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Al Haramain Hospital Private Limited, Sylhet",Private,16,0,0,0,16,16,0,0,0,16,16,0,0,,0,45,6,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Mount Adora Hospital, Sylhet",Private,16,0,0,0,16,1,0,0,0,16,1,5,0,,0,34,16,4056453,3444750,2929105,1183611
+Sylhet Division,Habiganj,1934,133,"Nabiganj Upazila Health Complex,Habiganj",Government,19,0,0,0,19,0,0,0,0,19,0,0,0,,2,46,0,2468875,2132834,1779910,1075919
+Sylhet Division,Maulavi Bazar,1854,207,"Kulaura Upazila Health Complex,Moulvibazar",Government,20,0,0,0,20,9,0,0,0,20,9,0,0,,10,0,0,2267809,2047456,1736033,929214
+Sylhet Division,Maulavi Bazar,1854,207,"Kamalganj Upazila Health Complex,Moulvibazar",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,30,82,0,2267809,2047456,1736033,929214
+Sylhet Division,Maulavi Bazar,1854,207,"Sreemangal Upazila Health Complex,Moulvibazar",Government,20,0,0,0,20,5,5,0,0,20,5,0,0,,5,129,0,2267809,2047456,1736033,929214
+Sylhet Division,Habiganj,1934,133,"Madhabpur Upazila Health Complex,Habiganj",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,42,0,2468875,2132834,1779910,1075919
+Sylhet Division,Sunamganj,2495,183,"Derai Upazila Health Complex, Sunamganj",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,0,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sunamganj,2495,183,"Tahirpur Upazila Health Complex,Sunamganj",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,2,26,0,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,"Companiganj SH Upazila Health Complex,Sylhet",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,18,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Biswanath Upazila Health Complex,Sylhet",Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,23,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,Golapganj Upazila Health Complex,Government,20,0,0,0,20,0,0,0,0,20,0,0,0,,0,23,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,Sylhet Shahid Shamsuddin Ahmed District Hospital,Government,20,16,0,0,36,19,7,0,0,36,19,9,0,,9,148,100,4056453,3444750,2929105,1183611
+Sylhet Division,Maulavi Bazar,1854,207,"Rajnagar Upazila Health Complex,Moulvibazar",Government,30,0,0,0,30,0,0,0,0,30,0,0,0,,14,123,0,2267809,2047456,1736033,929214
+Sylhet Division,Sylhet,8837,837,"Dakhin Surma Upazila Health Complex,Sylhet",Government,31,0,0,0,31,4,0,0,0,31,4,0,0,,14,18,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"Khadimpara 31 bed Hospital, Sylhet Sadar",Government,31,0,0,0,31,7,0,0,0,31,7,0,0,,10,49,0,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,Sylhet Community Based Hospital,Private,31,19,3,0,53,0,0,0,0,53,0,3,0,,0,100,50,4056453,3444750,2929105,1183611
+Sylhet Division,Maulavi Bazar,1854,207,"M.Bazar District Hospital, M.Bazar",Government,60,0,0,5,65,0,0,0,0,65,0,5,0,,8,640,250,2267809,2047456,1736033,929214
+Sylhet Division,Sylhet,8837,837,"North East Medical College Hospital, Sylhet",Private,67,36,4,0,107,33,6,0,0,107,33,4,0,,4,82,99,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,Sylhet Womens Medical College and Hospital,Private,80,10,0,10,100,8,0,0,2,100,8,6,0,,2,85,100,4056453,3444750,2929105,1183611
+Sylhet Division,Habiganj,1934,133,"Hobiganj District Hospital, Hobiganj",Government,100,0,0,0,100,0,0,0,0,100,0,2,0,,5,242,100,2468875,2132834,1779910,1075919
+Sylhet Division,Sunamganj,2495,183,Sunamganj 250 bed District Sadar Hospital,Government,100,0,0,0,100,0,0,0,0,100,0,5,0,,25,126,84,2916327,2328424,1902476,1067718
+Sylhet Division,Sylhet,8837,837,Jalalabad Ragib Rabeya Medical College Hospital,Private,100,0,0,0,100,0,0,0,0,100,0,5,5,,0,291,132,4056453,3444750,2929105,1183611
+Sylhet Division,Sylhet,8837,837,"MAG Osmani Medical College Hospital, Sylhet",Government,305,10,5,10,330,0,0,0,0,330,0,12,0,,22,300,740,4056453,3444750,2929105,1183611
